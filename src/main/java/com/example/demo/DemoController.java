@@ -15,4 +15,9 @@ public class DemoController {
     public String status() {
         return "Application is running - Endpoint 2";
     }
+    
+    @GetMapping("/nikhil")
+    public String nikhil() {
+        return "Application is running - Endpoint 3";
+    }
 }

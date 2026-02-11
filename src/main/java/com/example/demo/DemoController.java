@@ -1,23 +1,23 @@
 package com.example.demo;
 
-<<<<<<< HEAD
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
-public class DemoController {
+//import org.springframework.web.bind.annotation.GetMapping;
+//import org.springframework.web.bind.annotation.RestController;
 
-    @GetMapping("/hello")
-    public String hello() {
-        return "Hello from Endpoint 1";
-    }
-
-    @GetMapping("/status")
-    public String status() {
-        return "Application is running - Endpoint 2";
-    }
-}
-=======
+//@RestController
+//public class DemoController {
+//
+//    @GetMapping("/hello")
+//    public String hello() {
+//        return "Hello from Endpoint 1";
+//    }
+//
+//    @GetMapping("/status")
+//    public String status() {
+//        return "Application is running - Endpoint 2";
+//    }
+//}
+//=======
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -37,4 +37,4 @@ public class DemoController {
         return customerService.getCustomerFromEsb(id);
     }
 }
->>>>>>> uat
+
